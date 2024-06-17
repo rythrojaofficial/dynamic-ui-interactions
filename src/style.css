@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'gFonts-Inter';
+    src: url('./fonts/inter/Inter-VariableFont_slnt\,wght.ttf');
+    font-weight: normal;
+    font-size: normal;
+  }
+
+
+
+  
+   .hello {
+     color: blueviolet;
+    font-family: 'gFonts-Inter';
+     /* background: url('./images/icon.png'); */
+   }
