@@ -18,6 +18,9 @@ let imgArray = [
     link: "https://media.gettyimages.com/id/1757252335/photo/portraits-of-avatars-of-cat-shaped-robots.jpg?s=612x612&w=gi&k=20&c=yP7ZWW_tAGu7BbmXDius_pwUgmH9myvwR60vMwX_-gU=",
     altText: "swimmers",
   },
-  { link: "../images/theThorn.png", altText: "none" },
+  {
+    link: "https://media.gettyimages.com/id/1977180734/photo/watermelon-smoothies-in-glass-on-light-table-with-shadow-sunlights-top-view-with-copy-space.jpg?s=612x612&w=gi&k=20&c=NBF8vgQZFlFNl15BvcwL-3Fi3tCsNnQntDHiOnkLoTM=",
+    altText: "watermelon",
+  },
 ];
 populateCarousel(document.getElementById("carousel"), imgArray);

@@ -2,24 +2,24 @@ export function populateDropdown(arrayOfDropdownElements) {
   arrayOfDropdownElements.forEach((ddEl) => {
     // hide Elements
     let childrenArray = Array.from(ddEl.children);
-    let status = "hidden";
+    let status = "block";
     childrenArray.forEach((el) => {
-      el.style.visibility = "hidden";
+      el.style.display = status;
     });
     // add button
     ddEl.addEventListener("click", () => {
       switch (status) {
-        case "hidden":
+        case "none":
           childrenArray.forEach((el) => {
-            el.style.visibility = "visible";
+            el.style.display = "block";
           });
-          status = "visible";
+          status = "block";
           break;
-        case "visible":
+        case "block":
           childrenArray.forEach((el) => {
-            el.style.visibility = "hidden";
+            el.style.display = "none";
           });
-          status = "hidden";
+          status = "none";
           break;
       }
     });

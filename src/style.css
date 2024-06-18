@@ -8,8 +8,16 @@
 
 
   
-   .hello {
+.hello {
      color: blueviolet;
     font-family: 'gFonts-Inter';
      /* background: url('./images/icon.png'); */
    }
+#carousel{
+  display:flex;
+  height: 500px;
+}
+.disk-active{
+  filter: hue-rotate(180deg);
+}
+
